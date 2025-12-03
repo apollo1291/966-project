@@ -1,0 +1,139 @@
+{
+  "objects": [
+    { "id": 1, "shape": "circle", "color": "red", "fill": "solid", "size": "big" },
+    { "id": 2, "shape": "circle", "color": "red", "fill": "solid", "size": "small" },
+    { "id": 3, "shape": "circle", "color": "red", "fill": "striped", "size": "big" },
+    { "id": 4, "shape": "circle", "color": "red", "fill": "striped", "size": "small" },
+    { "id": 5, "shape": "circle", "color": "blue", "fill": "solid", "size": "big" },
+    { "id": 6, "shape": "circle", "color": "blue", "fill": "solid", "size": "small" },
+    { "id": 7, "shape": "circle", "color": "blue", "fill": "striped", "size": "big" },
+    { "id": 8, "shape": "circle", "color": "blue", "fill": "striped", "size": "small" },
+    { "id": 9, "shape": "square", "color": "red", "fill": "solid", "size": "big" },
+    { "id": 10, "shape": "square", "color": "red", "fill": "solid", "size": "small" },
+    { "id": 11, "shape": "square", "color": "red", "fill": "striped", "size": "big" },
+    { "id": 12, "shape": "square", "color": "red", "fill": "striped", "size": "small" },
+    { "id": 13, "shape": "square", "color": "blue", "fill": "solid", "size": "big" },
+    { "id": 14, "shape": "square", "color": "blue", "fill": "solid", "size": "small" },
+    { "id": 15, "shape": "square", "color": "blue", "fill": "striped", "size": "big" },
+    { "id": 16, "shape": "square", "color": "blue", "fill": "striped", "size": "small" }
+  ],
+  "trials": [
+    {
+      "id": "S1",
+      "type": "subtractive",
+      "hypothesis": ["red", "square", "small"],
+      "examples": [
+        { "object_id": 9, "label": 1 },
+        { "object_id": 10, "label": 1 },
+        { "object_id": 11, "label": 1 },
+        { "object_id": 12, "label": 1 },
+        { "object_id": 13, "label": 0 },
+        { "object_id": 14, "label": 0 }
+      ]
+    },
+    {
+      "id": "A1",
+      "type": "additive",
+      "hypothesis": ["red"],
+      "examples": [
+        { "object_id": 1, "label": 1 },
+        { "object_id": 2, "label": 1 },
+        { "object_id": 3, "label": 1 },
+        { "object_id": 4, "label": 1 },
+        { "object_id": 5, "label": 0 },
+        { "object_id": 6, "label": 0 }
+      ]
+    },
+    {
+      "id": "S2",
+      "type": "subtractive",
+      "hypothesis": ["square", "blue", "solid"],
+      "examples": [
+        { "object_id": 13, "label": 1 },
+        { "object_id": 14, "label": 1 },
+        { "object_id": 15, "label": 0 },
+        { "object_id": 16, "label": 0 },
+        { "object_id": 9, "label": 0 },
+        { "object_id": 10, "label": 0 }
+      ]
+    },
+    {
+      "id": "A2",
+      "type": "additive",
+      "hypothesis": ["circle", "blue"],
+      "examples": [
+        { "object_id": 5, "label": 1 },
+        { "object_id": 6, "label": 1 },
+        { "object_id": 7, "label": 1 },
+        { "object_id": 8, "label": 1 },
+        { "object_id": 1, "label": 0 },
+        { "object_id": 2, "label": 0 }
+      ]
+    },
+    {
+      "id": "S3",
+      "type": "subtractive",
+      "hypothesis": ["circle", "red", "big"],
+      "examples": [
+        { "object_id": 1, "label": 1 },
+        { "object_id": 3, "label": 1 },
+        { "object_id": 5, "label": 0 },
+        { "object_id": 7, "label": 0 },
+        { "object_id": 2, "label": 0 },
+        { "object_id": 4, "label": 0 }
+      ]
+    },
+    {
+      "id": "A3",
+      "type": "additive",
+      "hypothesis": ["square"],
+      "examples": [
+        { "object_id": 9, "label": 1 },
+        { "object_id": 10, "label": 1 },
+        { "object_id": 11, "label": 1 },
+        { "object_id": 12, "label": 1 },
+        { "object_id": 13, "label": 1 },
+        { "object_id": 14, "label": 1 }
+      ]
+    },
+    {
+      "id": "S4",
+      "type": "subtractive",
+      "hypothesis": ["big", "striped", "circle"],
+      "examples": [
+        { "object_id": 3, "label": 1 },
+        { "object_id": 7, "label": 1 },
+        { "object_id": 11, "label": 0 },
+        { "object_id": 15, "label": 0 },
+        { "object_id": 1, "label": 0 },
+        { "object_id": 5, "label": 0 }
+      ]
+    },
+    {
+      "id": "A4",
+      "type": "additive",
+      "hypothesis": ["blue"],
+      "examples": [
+        { "object_id": 5, "label": 1 },
+        { "object_id": 6, "label": 1 },
+        { "object_id": 7, "label": 1 },
+        { "object_id": 8, "label": 1 },
+        { "object_id": 13, "label": 1 },
+        { "object_id": 14, "label": 1 }
+      ]
+    },
+    {
+      "id": "S5",
+      "type": "subtractive",
+      "hypothesis": ["small", "solid", "square"],
+      "examples": [
+        { "object_id": 10, "label": 1 },
+        { "object_id": 14, "label": 1 },
+        { "object_id": 2, "label": 0 },
+        { "object_id": 6, "label": 0 },
+        { "object_id": 9, "label": 0 },
+        { "object_id": 13, "label": 0 }
+      ]
+    }
+  ]
+}
