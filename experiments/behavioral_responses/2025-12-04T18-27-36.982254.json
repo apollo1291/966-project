@@ -1,0 +1,213 @@
+{
+  "responses": [
+    {
+      "trial_id": "A1",
+      "initial_hypothesis": [
+        "red"
+      ],
+      "response_hypothesis": [
+        "circle",
+        "red"
+      ],
+      "response_type": "additive",
+      "condition": "normal",
+      "raw_feature_choices": {
+        "shape": [
+          "circle"
+        ],
+        "color": [
+          "red"
+        ],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 50966,
+      "timestamp": "2025-12-04T18:25:25.203Z"
+    },
+    {
+      "trial_id": "S3",
+      "initial_hypothesis": [
+        "circle",
+        "red",
+        "big"
+      ],
+      "response_hypothesis": [
+        "red",
+        "big"
+      ],
+      "response_type": "subtractive",
+      "condition": "normal",
+      "raw_feature_choices": {
+        "shape": [],
+        "color": [
+          "red"
+        ],
+        "fill": [],
+        "size": [
+          "big"
+        ]
+      },
+      "rt_ms": 37412,
+      "timestamp": "2025-12-04T18:26:02.619Z"
+    },
+    {
+      "trial_id": "S5",
+      "initial_hypothesis": [
+        "small",
+        "solid",
+        "square"
+      ],
+      "response_hypothesis": [
+        "square",
+        "small"
+      ],
+      "response_type": "subtractive",
+      "condition": "normal",
+      "raw_feature_choices": {
+        "shape": [
+          "square"
+        ],
+        "color": [],
+        "fill": [],
+        "size": [
+          "small"
+        ]
+      },
+      "rt_ms": 17167,
+      "timestamp": "2025-12-04T18:26:19.789Z"
+    },
+    {
+      "trial_id": "A3",
+      "initial_hypothesis": [
+        "square"
+      ],
+      "response_hypothesis": [
+        "square"
+      ],
+      "response_type": "subtractive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [
+          "square"
+        ],
+        "color": [],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 12742,
+      "timestamp": "2025-12-04T18:26:32.534Z"
+    },
+    {
+      "trial_id": "A4",
+      "initial_hypothesis": [
+        "blue"
+      ],
+      "response_hypothesis": [
+        "blue"
+      ],
+      "response_type": "subtractive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [],
+        "color": [
+          "blue"
+        ],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 5668,
+      "timestamp": "2025-12-04T18:26:38.204Z"
+    },
+    {
+      "trial_id": "A2",
+      "initial_hypothesis": [
+        "circle",
+        "blue"
+      ],
+      "response_hypothesis": [],
+      "response_type": "subtractive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [],
+        "color": [],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 14596,
+      "timestamp": "2025-12-04T18:26:52.804Z"
+    },
+    {
+      "trial_id": "A2",
+      "initial_hypothesis": [
+        "circle",
+        "blue"
+      ],
+      "response_hypothesis": [],
+      "response_type": "subtractive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [],
+        "color": [],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 14596,
+      "timestamp": "2025-12-04T18:26:52.804Z"
+    },
+    {
+      "trial_id": "S2",
+      "initial_hypothesis": [
+        "square",
+        "blue",
+        "solid"
+      ],
+      "response_hypothesis": [
+        "blue",
+        "solid"
+      ],
+      "response_type": "subtractive",
+      "condition": "add_subtract_reminder",
+      "raw_feature_choices": {
+        "shape": [],
+        "color": [
+          "blue"
+        ],
+        "fill": [
+          "solid"
+        ],
+        "size": []
+      },
+      "rt_ms": 16244,
+      "timestamp": "2025-12-04T18:27:09.051Z"
+    },
+    {
+      "trial_id": "S4",
+      "initial_hypothesis": [
+        "big",
+        "striped",
+        "circle"
+      ],
+      "response_hypothesis": [
+        "circle",
+        "striped",
+        "big"
+      ],
+      "response_type": "subtractive",
+      "condition": "add_subtract_reminder",
+      "raw_feature_choices": {
+        "shape": [
+          "circle"
+        ],
+        "color": [],
+        "fill": [
+          "striped"
+        ],
+        "size": [
+          "big"
+        ]
+      },
+      "rt_ms": 21830,
+      "timestamp": "2025-12-04T18:27:30.883Z"
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "responses": [
+    {
+      "trial_id": "S1",
+      "initial_hypothesis": [
+        "red",
+        "square",
+        "small"
+      ],
+      "response_hypothesis": [
+        "square",
+        "red",
+        "solid",
+        "small"
+      ],
+      "response_type": "additive",
+      "condition": "normal",
+      "raw_feature_choices": {
+        "shape": [
+          "square"
+        ],
+        "color": [
+          "red"
+        ],
+        "fill": [
+          "solid"
+        ],
+        "size": [
+          "small"
+        ]
+      },
+      "rt_ms": 130654,
+      "timestamp": "2025-12-05T03:07:50.144Z"
+    },
+    {
+      "trial_id": "A1",
+      "initial_hypothesis": [
+        "red"
+      ],
+      "response_hypothesis": [
+        "square",
+        "blue",
+        "striped",
+        "big"
+      ],
+      "response_type": "additive",
+      "condition": "normal",
+      "raw_feature_choices": {
+        "shape": [
+          "square"
+        ],
+        "color": [
+          "blue"
+        ],
+        "fill": [
+          "striped"
+        ],
+        "size": [
+          "big"
+        ]
+      },
+      "rt_ms": 55002,
+      "timestamp": "2025-12-05T03:08:45.159Z"
+    },
+    {
+      "trial_id": "S3",
+      "initial_hypothesis": [
+        "circle",
+        "red",
+        "big"
+      ],
+      "response_hypothesis": [
+        "circle",
+        "red",
+        "big"
+      ],
+      "response_type": "subtractive",
+      "condition": "normal",
+      "raw_feature_choices": {
+        "shape": [
+          "circle"
+        ],
+        "color": [
+          "red"
+        ],
+        "fill": [],
+        "size": [
+          "big"
+        ]
+      },
+      "rt_ms": 65749,
+      "timestamp": "2025-12-05T03:09:50.914Z"
+    },
+    {
+      "trial_id": "S5",
+      "initial_hypothesis": [
+        "small",
+        "solid",
+        "square"
+      ],
+      "response_hypothesis": [],
+      "response_type": "subtractive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [],
+        "color": [],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 30636,
+      "timestamp": "2025-12-05T03:10:21.564Z"
+    },
+    {
+      "trial_id": "S5",
+      "initial_hypothesis": [
+        "small",
+        "solid",
+        "square"
+      ],
+      "response_hypothesis": [],
+      "response_type": "subtractive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [],
+        "color": [],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 30636,
+      "timestamp": "2025-12-05T03:10:21.564Z"
+    },
+    {
+      "trial_id": "S2",
+      "initial_hypothesis": [
+        "square",
+        "blue",
+        "solid"
+      ],
+      "response_hypothesis": [
+        "square",
+        "blue",
+        "striped"
+      ],
+      "response_type": "additive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [
+          "square"
+        ],
+        "color": [
+          "blue"
+        ],
+        "fill": [
+          "striped"
+        ],
+        "size": []
+      },
+      "rt_ms": 26472,
+      "timestamp": "2025-12-05T03:10:48.050Z"
+    },
+    {
+      "trial_id": "A3",
+      "initial_hypothesis": [
+        "square"
+      ],
+      "response_hypothesis": [
+        "square",
+        "blue",
+        "striped",
+        "small"
+      ],
+      "response_type": "additive",
+      "condition": "add_subtract_reminder",
+      "raw_feature_choices": {
+        "shape": [
+          "square"
+        ],
+        "color": [
+          "blue"
+        ],
+        "fill": [
+          "striped"
+        ],
+        "size": [
+          "small"
+        ]
+      },
+      "rt_ms": 75714,
+      "timestamp": "2025-12-05T03:12:03.769Z"
+    },
+    {
+      "trial_id": "A4",
+      "initial_hypothesis": [
+        "blue"
+      ],
+      "response_hypothesis": [
+        "square",
+        "blue",
+        "striped",
+        "big"
+      ],
+      "response_type": "additive",
+      "condition": "add_subtract_reminder",
+      "raw_feature_choices": {
+        "shape": [
+          "square"
+        ],
+        "color": [
+          "blue"
+        ],
+        "fill": [
+          "striped"
+        ],
+        "size": [
+          "big"
+        ]
+      },
+      "rt_ms": 37945,
+      "timestamp": "2025-12-05T03:12:41.719Z"
+    },
+    {
+      "trial_id": "S4",
+      "initial_hypothesis": [
+        "big",
+        "striped",
+        "circle"
+      ],
+      "response_hypothesis": [
+        "circle",
+        "solid",
+        "big"
+      ],
+      "response_type": "additive",
+      "condition": "add_subtract_reminder",
+      "raw_feature_choices": {
+        "shape": [
+          "circle"
+        ],
+        "color": [],
+        "fill": [
+          "solid"
+        ],
+        "size": [
+          "big"
+        ]
+      },
+      "rt_ms": 41448,
+      "timestamp": "2025-12-05T03:13:23.170Z"
+    }
+  ]
+}

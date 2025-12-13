@@ -4,7 +4,7 @@ from datetime import datetime
 
 app = modal.App("concept-learning-backend")
 
-# Create or attach a Modal Volume to store files
+
 volume = modal.Volume.from_name("experiment_responses", create_if_missing=True)
 
 @app.function(volumes={"/data": volume})

@@ -1,0 +1,206 @@
+{
+  "responses": [
+    {
+      "trial_id": "S3",
+      "initial_hypothesis": [
+        "circle",
+        "red",
+        "big"
+      ],
+      "response_hypothesis": [
+        "circle",
+        "red",
+        "big"
+      ],
+      "response_type": "subtractive",
+      "condition": "normal",
+      "raw_feature_choices": {
+        "shape": [
+          "circle"
+        ],
+        "color": [
+          "red"
+        ],
+        "fill": [],
+        "size": [
+          "big"
+        ]
+      },
+      "rt_ms": 38195,
+      "timestamp": "2025-12-03T03:55:05.983Z"
+    },
+    {
+      "trial_id": "A1",
+      "initial_hypothesis": [
+        "red"
+      ],
+      "response_hypothesis": [
+        "red"
+      ],
+      "response_type": "subtractive",
+      "condition": "normal",
+      "raw_feature_choices": {
+        "shape": [],
+        "color": [
+          "red"
+        ],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 13842,
+      "timestamp": "2025-12-03T03:55:19.829Z"
+    },
+    {
+      "trial_id": "S5",
+      "initial_hypothesis": [
+        "small",
+        "solid",
+        "square"
+      ],
+      "response_hypothesis": [
+        "square",
+        "small"
+      ],
+      "response_type": "subtractive",
+      "condition": "normal",
+      "raw_feature_choices": {
+        "shape": [
+          "square"
+        ],
+        "color": [],
+        "fill": [],
+        "size": [
+          "small"
+        ]
+      },
+      "rt_ms": 14643,
+      "timestamp": "2025-12-03T03:55:34.479Z"
+    },
+    {
+      "trial_id": "S4",
+      "initial_hypothesis": [
+        "big",
+        "striped",
+        "circle"
+      ],
+      "response_hypothesis": [
+        "circle",
+        "striped"
+      ],
+      "response_type": "subtractive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [
+          "circle"
+        ],
+        "color": [],
+        "fill": [
+          "striped"
+        ],
+        "size": []
+      },
+      "rt_ms": 16680,
+      "timestamp": "2025-12-03T03:55:51.166Z"
+    },
+    {
+      "trial_id": "S1",
+      "initial_hypothesis": [
+        "red",
+        "square",
+        "small"
+      ],
+      "response_hypothesis": [
+        "red"
+      ],
+      "response_type": "subtractive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [],
+        "color": [
+          "red"
+        ],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 12846,
+      "timestamp": "2025-12-03T03:56:04.019Z"
+    },
+    {
+      "trial_id": "S2",
+      "initial_hypothesis": [
+        "square",
+        "blue",
+        "solid"
+      ],
+      "response_hypothesis": [],
+      "response_type": "subtractive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [],
+        "color": [],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 4672,
+      "timestamp": "2025-12-03T03:56:08.696Z"
+    },
+    {
+      "trial_id": "S2",
+      "initial_hypothesis": [
+        "square",
+        "blue",
+        "solid"
+      ],
+      "response_hypothesis": [],
+      "response_type": "subtractive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [],
+        "color": [],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 4673,
+      "timestamp": "2025-12-03T03:56:08.697Z"
+    },
+    {
+      "trial_id": "A2",
+      "initial_hypothesis": [
+        "circle",
+        "blue"
+      ],
+      "response_hypothesis": [
+        "blue"
+      ],
+      "response_type": "subtractive",
+      "condition": "add_subtract_reminder",
+      "raw_feature_choices": {
+        "shape": [],
+        "color": [
+          "blue"
+        ],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 24384,
+      "timestamp": "2025-12-03T03:56:33.093Z"
+    },
+    {
+      "trial_id": "A4",
+      "initial_hypothesis": [
+        "blue"
+      ],
+      "response_hypothesis": [],
+      "response_type": "subtractive",
+      "condition": "add_subtract_reminder",
+      "raw_feature_choices": {
+        "shape": [],
+        "color": [],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 15741,
+      "timestamp": "2025-12-03T03:56:48.839Z"
+    }
+  ]
+}

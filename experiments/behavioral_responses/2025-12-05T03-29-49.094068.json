@@ -1,0 +1,325 @@
+{
+  "responses": [
+    {
+      "trial_id": "S5",
+      "initial_hypothesis": [
+        "small",
+        "solid",
+        "square"
+      ],
+      "response_hypothesis": [
+        "circle",
+        "square",
+        "red",
+        "blue",
+        "solid",
+        "big",
+        "small"
+      ],
+      "response_type": "additive",
+      "condition": "normal",
+      "raw_feature_choices": {
+        "shape": [
+          "circle",
+          "square"
+        ],
+        "color": [
+          "red",
+          "blue"
+        ],
+        "fill": [
+          "solid"
+        ],
+        "size": [
+          "big",
+          "small"
+        ]
+      },
+      "rt_ms": 47099,
+      "timestamp": "2025-12-05T03:27:18.542Z"
+    },
+    {
+      "trial_id": "A3",
+      "initial_hypothesis": [
+        "square"
+      ],
+      "response_hypothesis": [
+        "square",
+        "red",
+        "blue",
+        "solid",
+        "striped",
+        "big",
+        "small"
+      ],
+      "response_type": "additive",
+      "condition": "normal",
+      "raw_feature_choices": {
+        "shape": [
+          "square"
+        ],
+        "color": [
+          "red",
+          "blue"
+        ],
+        "fill": [
+          "solid",
+          "striped"
+        ],
+        "size": [
+          "big",
+          "small"
+        ]
+      },
+      "rt_ms": 20813,
+      "timestamp": "2025-12-05T03:27:39.365Z"
+    },
+    {
+      "trial_id": "A4",
+      "initial_hypothesis": [
+        "blue"
+      ],
+      "response_hypothesis": [
+        "circle",
+        "square",
+        "blue",
+        "solid",
+        "striped",
+        "big",
+        "small"
+      ],
+      "response_type": "additive",
+      "condition": "normal",
+      "raw_feature_choices": {
+        "shape": [
+          "circle",
+          "square"
+        ],
+        "color": [
+          "blue"
+        ],
+        "fill": [
+          "solid",
+          "striped"
+        ],
+        "size": [
+          "big",
+          "small"
+        ]
+      },
+      "rt_ms": 15149,
+      "timestamp": "2025-12-05T03:27:54.523Z"
+    },
+    {
+      "trial_id": "A1",
+      "initial_hypothesis": [
+        "red"
+      ],
+      "response_hypothesis": [
+        "circle",
+        "square",
+        "red",
+        "blue"
+      ],
+      "response_type": "additive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [
+          "circle",
+          "square"
+        ],
+        "color": [
+          "red",
+          "blue"
+        ],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 32635,
+      "timestamp": "2025-12-05T03:28:27.169Z"
+    },
+    {
+      "trial_id": "A1",
+      "initial_hypothesis": [
+        "red"
+      ],
+      "response_hypothesis": [
+        "circle",
+        "square",
+        "red",
+        "blue"
+      ],
+      "response_type": "additive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [
+          "circle",
+          "square"
+        ],
+        "color": [
+          "red",
+          "blue"
+        ],
+        "fill": [],
+        "size": []
+      },
+      "rt_ms": 32636,
+      "timestamp": "2025-12-05T03:28:27.170Z"
+    },
+    {
+      "trial_id": "S1",
+      "initial_hypothesis": [
+        "red",
+        "square",
+        "small"
+      ],
+      "response_hypothesis": [
+        "circle",
+        "square",
+        "red",
+        "blue",
+        "solid",
+        "striped",
+        "big",
+        "small"
+      ],
+      "response_type": "additive",
+      "condition": "time_pressure",
+      "raw_feature_choices": {
+        "shape": [
+          "circle",
+          "square"
+        ],
+        "color": [
+          "red",
+          "blue"
+        ],
+        "fill": [
+          "solid",
+          "striped"
+        ],
+        "size": [
+          "big",
+          "small"
+        ]
+      },
+      "rt_ms": 19845,
+      "timestamp": "2025-12-05T03:28:47.029Z"
+    },
+    {
+      "trial_id": "S2",
+      "initial_hypothesis": [
+        "square",
+        "blue",
+        "solid"
+      ],
+      "response_hypothesis": [
+        "square",
+        "blue",
+        "red",
+        "solid",
+        "striped",
+        "big",
+        "small"
+      ],
+      "response_type": "additive",
+      "condition": "add_subtract_reminder",
+      "raw_feature_choices": {
+        "shape": [
+          "square"
+        ],
+        "color": [
+          "blue",
+          "red"
+        ],
+        "fill": [
+          "solid",
+          "striped"
+        ],
+        "size": [
+          "big",
+          "small"
+        ]
+      },
+      "rt_ms": 27199,
+      "timestamp": "2025-12-05T03:29:14.235Z"
+    },
+    {
+      "trial_id": "S4",
+      "initial_hypothesis": [
+        "big",
+        "striped",
+        "circle"
+      ],
+      "response_hypothesis": [
+        "circle",
+        "square",
+        "red",
+        "blue",
+        "solid",
+        "striped",
+        "big"
+      ],
+      "response_type": "additive",
+      "condition": "add_subtract_reminder",
+      "raw_feature_choices": {
+        "shape": [
+          "circle",
+          "square"
+        ],
+        "color": [
+          "red",
+          "blue"
+        ],
+        "fill": [
+          "solid",
+          "striped"
+        ],
+        "size": [
+          "big"
+        ]
+      },
+      "rt_ms": 12911,
+      "timestamp": "2025-12-05T03:29:27.153Z"
+    },
+    {
+      "trial_id": "A2",
+      "initial_hypothesis": [
+        "circle",
+        "blue"
+      ],
+      "response_hypothesis": [
+        "circle",
+        "square",
+        "red",
+        "blue",
+        "solid",
+        "striped",
+        "big",
+        "small"
+      ],
+      "response_type": "additive",
+      "condition": "add_subtract_reminder",
+      "raw_feature_choices": {
+        "shape": [
+          "circle",
+          "square"
+        ],
+        "color": [
+          "red",
+          "blue"
+        ],
+        "fill": [
+          "solid",
+          "striped"
+        ],
+        "size": [
+          "big",
+          "small"
+        ]
+      },
+      "rt_ms": 15348,
+      "timestamp": "2025-12-05T03:29:42.507Z"
+    }
+  ]
+}
